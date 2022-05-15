@@ -167,18 +167,18 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 301px;
+    margin-top: 275px;
     color: #fff;
 }
 
 .content__title {
-    margin-bottom: 40px;
+    margin-bottom: 15px;
 }
 
 .content__front {
     font-family: 'MuseoSansCyrl 100', sans-serif;
     font-size: 29px;
-    margin-bottom: 264px;
+    margin-bottom: 263px;
 }
 
 .arrow {
@@ -474,7 +474,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-top: 240px;
     }
     .content__front{
-        margin-bottom: 205px;
+        margin-bottom: 215px;
     }
     .pictures__icon {
         width: 30%;
@@ -491,13 +491,18 @@ h1, h2, h3, h4, h5, h6 {
     .points__text {
         margin-left: 20px;
     }
-    
+    .footer {
+        padding: 80px 0;
+    }
 }
 
 /* 576-768px */
 @media screen and (max-width: 768px) {
     .container {
         width: 520px;
+    }
+    .header {
+        padding: 45px 0 70px;
     }
     .content{
         margin-top: 220px;
@@ -526,7 +531,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 30px;
     }
     .footer {
-        padding: 60px 0;
+        padding: 70px 0;
     }
 }
 
@@ -534,6 +539,15 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 576px) {
     .container {
         width: 90%;
+    }
+    .header {
+        padding: 45px 0 60px;
+    }
+    .navigation {
+        flex-direction: column;
+    }
+    .logo {
+        margin-bottom: 20px;
     }
     .content{
         margin-top: 180px;
